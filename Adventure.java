@@ -8,10 +8,10 @@ public class Bro {
 			
 		String svar = sc1.nextLine();
 			
-		if(svar = "Marius") {
+		if(svar.equalsIgnoreCase("Marius")) 
        			System.out.println("Marius is in. We're locked and loaded.");
-		}else{
+		else
        			System.out.println("Hmm ok.. Kanskje du kan finne en som heter Marius?");
-      		}
+      		
 	}
 }
